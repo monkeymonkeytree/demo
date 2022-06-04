@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>adminCenter</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="/data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/files/admincenter/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="/scripts/jquery-3.2.1.min.js"></script>
+    <script src="/scripts/myscripts/admincenter.js"></script>
+    <script src="/scripts/axure/axQuery.js"></script>
+    <script src="/scripts/axure/globals.js"></script>
+    <script src="/scripts/axutils.js"></script>
+    <script src="/scripts/axure/annotation.js"></script>
+    <script src="/scripts/axure/axQuery.std.js"></script>
+    <script src="/scripts/axure/doc.js"></script>
+    <script src="/scripts/messagecenter.js"></script>
+    <script src="/scripts/axure/events.js"></script>
+    <script src="/scripts/axure/recording.js"></script>
+    <script src="/scripts/axure/action.js"></script>
+    <script src="/scripts/axure/expr.js"></script>
+    <script src="/scripts/axure/geometry.js"></script>
+    <script src="/scripts/axure/flyout.js"></script>
+    <script src="/scripts/axure/model.js"></script>
+    <script src="/scripts/axure/repeater.js"></script>
+    <script src="/scripts/axure/sto.js"></script>
+    <script src="/scripts/axure/utils.temp.js"></script>
+    <script src="/scripts/axure/variables.js"></script>
+    <script src="/scripts/axure/drag.js"></script>
+    <script src="/scripts/axure/move.js"></script>
+    <script src="/scripts/axure/visibility.js"></script>
+    <script src="/scripts/axure/style.js"></script>
+    <script src="/scripts/axure/adaptive.js"></script>
+    <script src="/scripts/axure/tree.js"></script>
+    <script src="/scripts/axure/init.temp.js"></script>
+    <script src="/scripts/axure/legacy.js"></script>
+    <script src="/scripts/axure/viewer.js"></script>
+    <script src="/scripts/axure/math.js"></script>
+    <script src="/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="/data/document.js"></script>
+    <script src="/files/admincenter/data.js"></script>
+
+    <script type="text/javascript">
+        $axure.utils.getTransparentGifPath = function () {
+            return '/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return '/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return '/reload.html';
+        };
+    </script>
+
+
+</head>
+<body>
+<div id="base" class="">
+
+    <!-- gpFunctionSelection (Group) -->
+    <div id="u66" class="ax_default" data-label="gpFunctionSelection" data-left="0" data-top="0" data-width="128"
+         data-height="1080">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u67" class="ax_default shape">
+            <div id="u67_div" class=""></div>
+            <div id="u67_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
+        </div>
+
+        <!-- lblHomePage (Rectangle) -->
+        <div id="u68" class="ax_default label" data-label="lblHomePage">
+            <div id="u68_div" class=""></div>
+            <div id="u68_text" class="text ">
+                <p><span style="text-decoration:none;">主页</span></p>
+            </div>
+        </div>
+
+        <!-- lblUserCenter (Rectangle) -->
+        <div id="u69" class="ax_default label" data-label="lblUserCenter">
+            <div id="u69_div" class=""></div>
+            <div id="u69_text" class="text ">
+                <p><span style="text-decoration:none;">用户中心</span></p>
+            </div>
+        </div>
+
+        <!-- lblDeviceManage (Rectangle) -->
+        <div id="u70" class="ax_default label" data-label="lblDeviceManage">
+            <div id="u70_div" class=""></div>
+            <div id="u70_text" class="text ">
+                <p><span style="text-decoration:none;">设备管理</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- dpHead (Dynamic Panel) -->
+    <div id="u71" class="ax_default" data-label="dpHead">
+        <div id="u71_state0" class="panel_state" data-label="State1" style="">
+            <div id="u71_state0_content" class="panel_state_content">
+            </div>
+        </div>
+    </div>
+
+    <!-- lblLogout (Rectangle) -->
+    <a id="u72" class="ax_default label" data-label="lblLogout" style="text-decoration: none" href="/logout">
+        退出登录
+    </a>
+
+    <!-- Unnamed (Rectangle) -->
+    <div id="u73" class="ax_default shape">
+        <div id="u73_div" class=""></div>
+        <div id="u73_text" class="text ">
+            <p><span style="text-decoration:none;">我的物联网云平台</span></p>
+        </div>
+    </div>
+
+    <!-- Unnamed (Image) -->
+    <div id="u74" class="ax_default image">
+        <img id="u74_img" class="img " src="images/homepage/u8.jpeg"/>
+        <div id="u74_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+        </div>
+    </div>
+
+    <!-- rpUsers (Repeater) -->
+    <div id="u84" class="ax_default heading_3">
+        <div id="u84_div" class=""></div>
+        <div id="u84_text" class="text ">
+            <p><span style="text-decoration:none;">添加用户</span></p>
+        </div>
+    </div>
+
+    <p><span style="  border-width:0px;
+  position:absolute;
+  left:197px;
+  top:286px;
+  width:72px;
+  height:21px;
+  display:flex;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;">用户列表</span></p>
+
+
+    <div id="u86" class="ax_default box_1" data-label="rName">
+        <div id="u86_div" class=""></div>
+        <div id="u86_text" class="text ">
+            <p><span style="text-decoration:none;">用户名</span></p>
+        </div>
+    </div>
+
+    <div id="u87" class="ax_default box_1" data-label="rEmail">
+        <div id="u87_div" class=""></div>
+        <div id="u87_text" class="text ">
+            <p><span style="text-decoration:none;">邮箱</span></p>
+        </div>
+    </div>
+
+
+    <div id="u88" class="ax_default box_1" data-label="rAge">
+        <div id="u88_div" class=""></div>
+        <div id="u88_text" class="text ">
+            <p><span style="text-decoration:none;">年龄</span></p>
+        </div>
+    </div>
+
+    <div id="u89" class="ax_default box_1" data-label="rRole">
+        <div id="u89_div" class=""></div>
+        <div id="u89_text" class="text ">
+            <p><span style="text-decoration:none;">角色</span></p>
+        </div>
+    </div>
+
+    <div id="u90" class="ax_default box_1" data-label="rPassword">
+        <div id="u90_div" class=""></div>
+        <div id="u90_text" class="text ">
+            <p><span style="text-decoration:none;">密码</span></p>
+        </div>
+    </div>
+
+    <div id="u91" class="ax_default box_1" data-label="rPassword">
+        <div id="u91_div" class=""></div>
+        <div id="u91_text" class="text ">
+            <p><span style="text-decoration:none;">操作</span></p>
+        </div>
+    </div>
+
+    <div id="u92" class="ax_default text_field" data-label="txtName">
+        <div id="u92_div" class=""></div>
+        <input id="u92_input" type="text" value="" class="u90_input" style="color: rgb(153, 153, 153);">
+    </div>
+
+
+    <div id="u93" class="ax_default text_field" data-label="txtEmail">
+        <div id="u93_div" class=""></div>
+        <input id="u93_input" placeholder="邮箱" type="email" value="" class="u91_input"
+               style="color: rgb(153, 153, 153);">
+    </div>
+
+    <div id="u94" class="ax_default text_field" data-label="txtAge">
+        <div id="u94_div" class=""></div>
+        <input id="u94_input" type="text" value="" class="u92_input" style="color: rgb(153, 153, 153);">
+    </div>
+
+    <div id="u95" class="ax_default droplist" data-label="selRole">
+        <div id="u95_div" class=""></div>
+        <select id="u95_input" class="u93_input">
+            <option class="u93_input_option" selected="selected" value="普通用户">普通用户</option>
+            <option class="u93_input_option" value="管理员">管理员</option>
+            <option class="u93_input_option" value="开发者">开发者</option>
+        </select>
+    </div>
+
+    <div id="u96" class="ax_default text_field" data-label="txtPassword">
+        <div id="u96_div" class=""></div>
+        <input id="u96_input" type="text" value="" class="u94_input" style="color: rgb(153, 153, 153);">
+    </div>
+
+    <div id="u97" class="ax_default button" data-label="btnAddUser">
+        <div id="u97_div" class=""></div>
+        <div id="u95_text" class="text ">
+            <p><span style="text-decoration:none;">新增</span></p>
+        </div>
+    </div>
+
+
+    <table cellspacing="0" style="top: 350px;left: 197px ;border: solid 1px; position:absolute "
+           width="800px ">
+        <tr>
+            <th width="100px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">ID</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="100px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">用户名</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="150px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">邮箱</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="100px">
+
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">年龄</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="100px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">角色</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="100px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">密码(加密)</span></p>
+                    </div>
+                </div>
+            </th>
+            <th width="200px">
+                <div class="ax_default box_1" data-label="rId">
+                    <div class=""></div>
+                    <div class="text ">
+                        <p><span style="text-decoration:none;">操作</span></p>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+    <table id="table" style="position: absolute ;top: 370px;left: 197px">
+
+    </table>
+
+
+</div>
+
+
+</div>
+<!--<script src="/scripts/axure/ios.js"></script>-->
+<script>
+    $("#table").on("click", ".modify", function () {
+
+        var id = $(this).closest("tr").find("td input").eq(0).val();
+        var username = $(this).closest("tr").find("td input").eq(1).val();
+        var email = $(this).closest("tr").find("td input").eq(2).val();
+        var age = $(this).closest("tr").find("td input").eq(3).val();
+        var role = $(this).closest("tr").find("td select").val();
+        var password = $(this).closest("tr").find("td input").eq(4).val();
+
+
+
+        console.log(id+"/"+username+"/"+email+"/"+age+"/"+role)
+
+        if (confirm("你确定要更新吗?")) {
+            $.ajax({
+                url: 'http://localhost:8080/update',
+                data: 'id=' + id + '&username=' + username + "&email=" + email + "&age=" + age + "&role=" + role + '&password=' + password,
+                type: 'POST',
+                success: function (msg) {
+                    alert(msg.msg);
+                },
+                error: function () {
+                    alert("更新失败！")
+                },
+                dataType: 'json'
+            })
+        }
+
+        location.reload();
+    })
+
+    $("#table").on("click", ".delete", function () {
+        var id = $(this).closest("tr").find("td input").eq(0).val();
+        if (confirm("你确定要删除吗?")) {
+            $.ajax({
+                url: 'http://localhost:8080/delete',
+                data: 'id=' + id,
+                type: 'delete',
+                success: function (msg) {
+                    alert(msg.msg);
+                },
+                error: function () {
+                    alert("删除失败！")
+                },
+                dataType: 'json'
+            })
+        }
+        location.reload();
+    })
+
+
+</script>
+</body>
+</html>
